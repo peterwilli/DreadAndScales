@@ -69,6 +69,7 @@ public class CustomPlayerConditions {
                         }
                         return entity.getType() == entityType && foundOriginType;
                     }).size();
+//                    System.out.println("nearby_entities Amount: " + amount);
                     Comparison comparison = ((Comparison)data.get("comparison"));
                     int compareTo = data.getInt("compare_to");
 

@@ -2,7 +2,7 @@
   "powers": [
     "dreadandscalesorigins:friend_of_dragon"
   ],
-  "icon": "dreadandscalesorigins:textures/item/wendigo_icon.png",
+  "icon": "minecraft:stick",
   "order": 4,
   "impact": 3
 }

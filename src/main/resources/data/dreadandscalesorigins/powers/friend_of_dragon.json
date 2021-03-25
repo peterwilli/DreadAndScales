@@ -9,7 +9,7 @@
   "condition": {
     "type": "dreadandscalesorigins:nearby_origins",
     "entity_type": "minecraft:player",
-    "origin_type": "dreadandscalesorigins:wendigo",
+    "origin_type": "dreadandscalesorigins:dragon",
     "player_box_multiplier": 3.0,
     "comparison": ">=",
     "compare_to": 3
