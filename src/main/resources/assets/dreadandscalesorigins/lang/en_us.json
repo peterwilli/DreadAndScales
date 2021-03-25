@@ -121,6 +121,9 @@
   "power.dreadandscalesorigins.small_bug.name": "Small Bug",
   "power.dreadandscalesorigins.small_bug.description": "You have 2 less hearts of health than humans.",
 
+  "power.dreadandscalesorigins.friend_of_dragon.name": "Friend of dragon",
+  "power.dreadandscalesorigins.friend_of_dragon.description": "When in close vicinity of a dragon, you will regenerate health.",
+
   "power.dreadandscalesorigins.bee_wings.name": "Bee Wings",
   "power.dreadandscalesorigins.bee_wings.description": "You can use your tiny bee wings to descend slower as an ability",
 

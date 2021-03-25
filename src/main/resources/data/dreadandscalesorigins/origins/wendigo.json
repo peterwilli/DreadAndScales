@@ -2,7 +2,7 @@
   "powers": [
     "dreadandscalesorigins:friend_of_dragon"
   ],
-  "icon": "minecraft:phantom",
+  "icon": "dreadandscalesorigins:icon",
   "order": 4,
   "impact": 3
 }
