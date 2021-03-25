@@ -1,0 +1,154 @@
+{
+  "enchantment.dreadandscalesorigins.heat_protection": "Защита от жары",
+  "death.attack.split": "%1$s разделился на ничто.",
+  "death.attack.split.player": "%1$s разделился, пока пытался сбежать от %2$s.",
+  "text.dreadandscalesorigins.become_elder": "Вы превратились в Древнего Стража!",
+  "text.dreadandscalesorigins.mystery_meat": "Странное мясо",
+
+  "origin.dreadandscalesorigins.snowgolem.name": "Снежный голем",
+  "origin.dreadandscalesorigins.snowgolem.description": "Големы созданные из снега. Слабы ко всему, что может их растопить.",
+
+  "power.dreadandscalesorigins.heat_weakness.name": "Таяние",
+  "power.dreadandscalesorigins.heat_weakness.description": "Ты получаешь урон в жарких биомах.",
+
+  "power.dreadandscalesorigins.greater_golems.name": "Усиленные големы",
+  "power.dreadandscalesorigins.greater_golems.description": "Снеговики сделанные тобой более сильные.",
+
+  "power.dreadandscalesorigins.stronger_snowballs.name": "Обледенелые снежки",
+  "power.dreadandscalesorigins.stronger_snowballs.description": "Брошенные тобою снежки - набитые льдом, поэтому наносят 1,5 урона!",
+
+  "power.dreadandscalesorigins.snow_trail.name": "Снежный след",
+  "power.dreadandscalesorigins.snow_trail.description": "Ты оставляешь след из снега.",
+
+  "power.dreadandscalesorigins.frigid_strength.name": "Сила холода",
+  "power.dreadandscalesorigins.frigid_strength.description": "Ты наносишь больше урона, находясь в холодном биоме.",
+
+  "origin.dreadandscalesorigins.witch.name": "Ведьма",
+  "origin.dreadandscalesorigins.witch.description": "Жестокие и бухтящие. Ведьмы - мастера зельеварения и прекрасно владеют магией.",
+
+  "power.dreadandscalesorigins.potion_action.name": "Идеальные зелья",
+  "power.dreadandscalesorigins.potion_action.description": "Получите случайный эффект зелья в зависимости от ситуации, в которой ты находишься.",
+
+  "power.dreadandscalesorigins.pillager_aligned.name": "Признан разбойниками",
+  "power.dreadandscalesorigins.pillager_aligned.description": "Крестьяне тебя ненавидят, но ты нравишься разбойникам!",
+
+  "power.dreadandscalesorigins.better_potions.name": "Улучшенные зелья",
+  "power.dreadandscalesorigins.better_potions.description": "Ты употребляешь зелья лучше, чем большинство, поэтому они прослужат дольше, когда выпьешь их.",
+
+  "origin.dreadandscalesorigins.strider.name": "Лавомерка",
+  "origin.dreadandscalesorigins.strider.description": "Путешествуете по бескрайним океанам лавы со скоростью лавомерки.",
+
+  "power.dreadandscalesorigins.lava_walk.name": "Ходящий по лаве",
+  "power.dreadandscalesorigins.lava_walk.description": "У тебя есть возможность ходить по источникам лавы!",
+
+  "power.dreadandscalesorigins.lava_speed.name": "Адепт лавы",
+  "power.dreadandscalesorigins.lava_speed.description": "Обычно ты медленный, но развиваешь огромную скорость на лаве.",
+
+  "power.dreadandscalesorigins.rideable_creature.name": "Ездовое существо",
+  "power.dreadandscalesorigins.rideable_creature.description": "Другие игроки могут ездить на тебе!",
+
+  "origin.dreadandscalesorigins.evoker.name": "Заклинатель",
+  "origin.dreadandscalesorigins.evoker.description": "Мастера магии и коллекционеры тотемов.",
+
+  "power.dreadandscalesorigins.summon_fangs.name": "Челюсти",
+  "power.dreadandscalesorigins.summon_fangs.description": "Ты можешь вызывать челюсти заклинателя!",
+
+  "origin.dreadandscalesorigins.wendigo.name": "Wendigo",
+  "origin.dreadandscalesorigins.wendigo.description": "Secretly a loveghoster",
+
+  "power.dreadandscalesorigins.lower_totem_chance.name": "Чародейские тотемы",
+  "power.dreadandscalesorigins.lower_totem_chance.description": "Тотемы имеют 10% шанс не сломаться.",
+
+  "origin.dreadandscalesorigins.guardian.name": "Страж",
+  "origin.dreadandscalesorigins.guardian.description": "Стражи известны тем, что защищают свои крепости и драгоценные губки внутри. Некоторые известны тем, что превратились в Древних Стражей.",
+
+  "power.dreadandscalesorigins.guardian_spikes.name": "Шипы стража",
+  "power.dreadandscalesorigins.guardian_spikes.description": "Шипы, у которых есть шанс нанести урон атакующим!",
+
+  "power.dreadandscalesorigins.guardian_ally.name": "Союзник стражей",
+  "power.dreadandscalesorigins.guardian_ally.description": "Стражи не атакуют тебя!",
+
+  "power.dreadandscalesorigins.monument_spawn.name": "Крепость твой дом",
+  "power.dreadandscalesorigins.monument_spawn.description": "Ты появляешься в подводной крепости.",
+  
+  "power.dreadandscalesorigins.land_slowness.name": "Зыбучая земля",
+  "power.dreadandscalesorigins.land_slowness.description": "Ты медленный, когда на земле.",
+
+  "origin.dreadandscalesorigins.elder_guardian.name": "Древний Страж",
+  "origin.dreadandscalesorigins.elder_guardian.description": "Древние стражы - лидеры в крепостях. Они более могущественны, чем обычные сражи.",
+
+  "power.dreadandscalesorigins.elder_magic.name": "Древняя магия",
+  "power.dreadandscalesorigins.elder_magic.description": "Вызывайте облако с эффектом усталости.",
+
+  "power.dreadandscalesorigins.mining_fatigue_immune.name": "Иммунитет древних",
+  "power.dreadandscalesorigins.mining_fatigue_immune.description": "У тебя иммунитет к усталости.",
+
+  "power.dreadandscalesorigins.elder_spikes.name": "Шипы древних",
+  "power.dreadandscalesorigins.elder_spikes.description": "Более сильные шипы, у которых есть шанс нанести урон атакующим!",
+
+  "origin.dreadandscalesorigins.slime.name": "Слизень",
+  "origin.dreadandscalesorigins.slime.description": "Зеленые капли желе, что прыгают вокруг!",
+
+  "power.dreadandscalesorigins.bouncy.name": "Упругий",
+  "power.dreadandscalesorigins.bouncy.description": "Все блоки действуют, как блоки слизи.",
+
+  "power.dreadandscalesorigins.split.name": "Способность разделения",
+  "power.dreadandscalesorigins.split.description": "Обменивайте свои очки здоровья на призыв маленькой слизи, что защитит тебя!",
+
+  "power.dreadandscalesorigins.small_weak.name": "Слабость низких",
+  "power.dreadandscalesorigins.small_weak.description": "Когда ты теряешь больше 2 сердец, ты больше не наносишь урона, но твои атаки сильнее отбрасывают!",
+
+  "origin.dreadandscalesorigins.wolf.name": "Волк",
+  "origin.dreadandscalesorigins.wolf.description": "Сильные и быстрые. Волки - существа, чья сила в их количестве.",
+
+  "power.dreadandscalesorigins.alpha_wolf.name": "Вожак стаи",
+  "power.dreadandscalesorigins.alpha_wolf.description": "Прирученные тобою волки более сильные!",
+
+  "power.dreadandscalesorigins.full_moon.name": "Подобие оборотня",
+  "power.dreadandscalesorigins.full_moon.description": "Когда восходит полная луна, ты становишся быстрее, сильнее и живучие.",
+
+  "power.dreadandscalesorigins.wolf_body.name": "Волкоподобный",
+  "power.dreadandscalesorigins.wolf_body.description": "У тебя на 2 сердца меньше, чем у людей.",
+  
+  "origin.dreadandscalesorigins.bee.name": "Пчела",
+  "origin.dreadandscalesorigins.bee.description": "Опыляющий мир летающее насекомое, что разносит цветы и мед повсюду.",
+
+  "power.dreadandscalesorigins.stinger.name": "Жало",
+  "power.dreadandscalesorigins.stinger.description": "Ты способен отравлять кого-либо на несколько секунд, когда бьёшь рукой.",
+
+  "power.dreadandscalesorigins.flower_power.name": "Сила цветов",
+  "power.dreadandscalesorigins.flower_power.description": "Когда рядом много цветов, ты регенируешь здоровье.",
+
+  "power.dreadandscalesorigins.queen_bee.name": "Королева пчёл",
+  "power.dreadandscalesorigins.queen_bee.description": "Когда ты собираешь мёд, пчёлы не будут пытаться атаковать тебя.",
+
+  "power.dreadandscalesorigins.small_bug.name": "Маленький жук",
+  "power.dreadandscalesorigins.small_bug.description": "У тебя на 2 сердца меньше, чем у людей.",
+
+  "power.dreadandscalesorigins.bee_wings.name": "Пчелиные крылья",
+  "power.dreadandscalesorigins.bee_wings.description": "Ты можешь использовать свои крошечные пчелиные крылья, чтобы медленнее падать.",
+
+  "origin.dreadandscalesorigins.fox.name": "Лиса",
+  "origin.dreadandscalesorigins.fox.description": "Милые и хитрые. Лисы - робкие существа, что любят поедать ягоды и воровать предметы.",
+
+  "power.dreadandscalesorigins.timid_creature.name": "Робкое существо",
+  "power.dreadandscalesorigins.timid_creature.description": "Твоя скорость увеличивается, когда вокруг тебя более 3 игроков.",
+
+  "power.dreadandscalesorigins.better_berries.name": "Спелые ягоды",
+  "power.dreadandscalesorigins.better_berries.description": "Сладкие ягоды для вас особенно вкусны!",
+
+  "power.dreadandscalesorigins.careful_gatherer.name": "Осторожный собиратель",
+  "power.dreadandscalesorigins.careful_gatherer.description": "Кусты сладких ягод не наносят урона.",
+
+  "power.dreadandscalesorigins.item_collector.name": "Коллекционер предметов",
+  "power.dreadandscalesorigins.item_collector.description": "Радиус подбирания предметов увеличен.",
+
+  "power.dreadandscalesorigins.sly.name": "Пронырливый",
+  "power.dreadandscalesorigins.sly.description": "Ты быстрый.",
+
+  "power.dreadandscalesorigins.small_fox.name": "Маленькая лиса",
+  "power.dreadandscalesorigins.small_fox.description": "У тебя на 2 сердца меньше, чем у людей."
+
+
+ 
+}

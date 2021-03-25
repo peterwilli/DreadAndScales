@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CustomEntityActions {
-    private static final String MOD_ID = MobOriginsMod.MOD_ID;
+    private static final String MOD_ID = DreadAndScaledOriginsMod.MOD_ID;
 
     public static void register() {
 

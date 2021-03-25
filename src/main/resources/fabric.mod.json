@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "moborigins",
+  "id": "dreadandscalesorigins",
   "version": "${version}",
   "name": "Mob Origins",
   "description": "Adds more origins based off of mobs in the game!",
@@ -18,7 +18,7 @@
       "io.github.ultrusbot.moborigins.client.MobOriginsClient"
     ],
     "main": [
-      "io.github.ultrusbot.moborigins.MobOriginsMod"
+      "io.github.ultrusbot.moborigins.DreadAndScaledOriginsMod"
     ]
   },
   "mixins": [

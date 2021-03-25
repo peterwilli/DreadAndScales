@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 
 public class MobOriginPowerFactories {
     public static void register() {
-        register(new PowerFactory<>(new Identifier("moborigins", "totem_chance"),
+        register(new PowerFactory<>(new Identifier("dreadandscalesorigins", "totem_chance"),
                 new SerializableData()
                         .add("chance", SerializableDataType.FLOAT, 0.1F),
                 data ->
@@ -19,7 +19,7 @@ public class MobOriginPowerFactories {
                                 new TotemChancePower(type, player, data.getFloat("chance")))
                 .allowCondition());
 
-        register(new PowerFactory<>(new Identifier("moborigins", "spiked"),
+        register(new PowerFactory<>(new Identifier("dreadandscalesorigins", "spiked"),
                 new SerializableData()
                         .add("spike_damage", SerializableDataType.INT, 2),
                 data ->

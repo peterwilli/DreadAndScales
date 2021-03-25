@@ -1,6 +1,6 @@
 package io.github.ultrusbot.moborigins.entity;
 
-import io.github.ultrusbot.moborigins.MobOriginsMod;
+import io.github.ultrusbot.moborigins.DreadAndScaledOriginsMod;
 import io.github.ultrusbot.moborigins.entity.slime.OriginSlimeEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
@@ -14,7 +14,7 @@ public class EntityRegistry {
     public static void register() {
         ORIGIN_SLIME = Registry.register(
                 Registry.ENTITY_TYPE,
-                new Identifier(MobOriginsMod.MOD_ID, "origin_slime"),
+                new Identifier(DreadAndScaledOriginsMod.MOD_ID, "origin_slime"),
                 FabricEntityTypeBuilder.<OriginSlimeEntity>create(SpawnGroup.CREATURE, OriginSlimeEntity::new).dimensions(EntityDimensions.fixed(1F, 1F)).trackRangeBlocks(10).build()
         );
     }

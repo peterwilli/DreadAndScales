@@ -1,0 +1,155 @@
+{
+  "enchantment.dreadandscalesorigins.heat_protection": "Heat Protection",
+  "death.attack.split": "%1$s split himself into nothing.",
+  "death.attack.split.player": "%1$s split whilst trying to escape %2$s.",
+  "text.dreadandscalesorigins.become_elder": "You have grown into an Elder Guardian!",
+  "text.dreadandscalesorigins.mystery_meat": "Mystery Meat",
+  "origin.dreadandscalesorigins.snowgolem.name": "Snow Golem",
+  "origin.dreadandscalesorigins.snowgolem.description": "Golems made from snow, and weak to anything that might melt them",
+
+  "power.dreadandscalesorigins.heat_weakness.name": "Heat Weakness",
+  "power.dreadandscalesorigins.heat_weakness.description": "You take damage over time in hot biomes",
+
+  "power.dreadandscalesorigins.greater_golems.name": "Greater Golems",
+  "power.dreadandscalesorigins.greater_golems.description": "Snow Golems you make are more powerful",
+
+  "power.dreadandscalesorigins.stronger_snowballs.name": "Stronger Snowballs",
+  "power.dreadandscalesorigins.stronger_snowballs.description": "Snowballs you throw are packed with ice, and deal 1 damage!",
+
+  "power.dreadandscalesorigins.snow_trail.name": "Snow Trail",
+  "power.dreadandscalesorigins.snow_trail.description": "You leave a trail of snow.",
+
+  "power.dreadandscalesorigins.frigid_strength.name": "Frigid Strength",
+  "power.dreadandscalesorigins.frigid_strength.description": "Deal more damage in cold areas.",
+
+  "origin.dreadandscalesorigins.witch.name": "Witch",
+  "origin.dreadandscalesorigins.witch.description": "Cruel and cackling, Witches are masters of brewing, and are great with magic",
+
+  "power.dreadandscalesorigins.potion_action.name": "Perfect Potion",
+  "power.dreadandscalesorigins.potion_action.description": "Get a random potion effect, based on the situation you are in.",
+
+  "power.dreadandscalesorigins.pillager_aligned.name": "Pillager Aligned",
+  "power.dreadandscalesorigins.pillager_aligned.description": "Villagers don't like you, and pillagers like you!",
+
+  "power.dreadandscalesorigins.better_potions.name": "Better Potions",
+  "power.dreadandscalesorigins.better_potions.description": "You consume potions better than most, Potions will last longer when you drink them.",
+
+  "origin.dreadandscalesorigins.strider.name": "Strider",
+  "origin.dreadandscalesorigins.strider.description": "Travel the vast oceans of lava with the speed of a strider",
+
+  "power.dreadandscalesorigins.lava_walk.name": "Lava Walker",
+  "power.dreadandscalesorigins.lava_walk.description": "You have the ability to walk on lava source blocks!",
+
+  "power.dreadandscalesorigins.lava_speed.name": "Lava Adept",
+  "power.dreadandscalesorigins.lava_speed.description": "You are slower by default, but get a lot of more speed on lava",
+
+  "power.dreadandscalesorigins.rideable_creature.name": "Rideable Creature",
+  "power.dreadandscalesorigins.rideable_creature.description": "Other players can ride you!",
+
+  "origin.dreadandscalesorigins.evoker.name": "Evoker",
+  "origin.dreadandscalesorigins.evoker.description": "Master of Magic, and a collector of Totems.",
+
+  "power.dreadandscalesorigins.summon_fangs.name": "Summon Fangs",
+  "power.dreadandscalesorigins.summon_fangs.description": "You gain the ability to summon fangs!",
+
+  "power.dreadandscalesorigins.lower_totem_chance.name": "Arcane Totems",
+  "power.dreadandscalesorigins.lower_totem_chance.description": "Totems have a 10% not to break on use",
+
+  "origin.dreadandscalesorigins.guardian.name": "Guardian",
+  "origin.dreadandscalesorigins.guardian.description": "Guardians are known for protecting their Monuments and the treasured sponges within. Some are known for evolving into Elder Guardians.",
+
+  "power.dreadandscalesorigins.guardian_spikes.name": "Guardian Spikes",
+  "power.dreadandscalesorigins.guardian_spikes.description": "Spikes that have a chance to damage attackers!",
+
+  "power.dreadandscalesorigins.guardian_ally.name": "Guardian Ally",
+  "power.dreadandscalesorigins.guardian_ally.description": "Guardians don't attack you!",
+
+  "power.dreadandscalesorigins.monument_spawn.name": "Monument Home",
+  "power.dreadandscalesorigins.monument_spawn.description": "You spawn at a Ocean Monument",
+
+  "power.dreadandscalesorigins.land_slowness.name": "Land Slowness",
+  "power.dreadandscalesorigins.land_slowness.description": "You are slower while on land.",
+
+  "origin.dreadandscalesorigins.elder_guardian.name": "Elder Guardian",
+  "origin.dreadandscalesorigins.elder_guardian.description": "Elder Guardians are the leaders of monuments, and wield more power than normal guardians",
+
+  "power.dreadandscalesorigins.elder_magic.name": "Elder Magic",
+  "power.dreadandscalesorigins.elder_magic.description": "Summon a effect cloud of mining fatigue",
+
+  "power.dreadandscalesorigins.mining_fatigue_immune.name": "Elder Immunity",
+  "power.dreadandscalesorigins.mining_fatigue_immune.description": "Immune to getting Mining Fatigue",
+
+  "power.dreadandscalesorigins.elder_spikes.name": "Elder Spikes",
+  "power.dreadandscalesorigins.elder_spikes.description": "Stronger Spikes that have a chance to damage attackers!",
+
+  "origin.dreadandscalesorigins.slime.name": "Slime",
+  "origin.dreadandscalesorigins.slime.description": "Green blobs of Jello, that bounce all around!",
+
+  "power.dreadandscalesorigins.bouncy.name": "Bouncy",
+  "power.dreadandscalesorigins.bouncy.description": "All blocks act like slime blocks",
+
+  "power.dreadandscalesorigins.split.name": "Split Ability",
+  "power.dreadandscalesorigins.split.description": "Turn your food points into a small slime to defend you!",
+
+  "power.dreadandscalesorigins.small_weak.name": "Small Weakness",
+  "power.dreadandscalesorigins.small_weak.description": "When at less than 2 hearts, you deal almost no damage, but your attacks have stronger knockback!",
+
+  "origin.dreadandscalesorigins.wolf.name": "Wolf",
+  "origin.dreadandscalesorigins.wolf.description": "Strong and Fast, Wolves are creatures that have strength in numbers.",
+
+  "power.dreadandscalesorigins.alpha_wolf.name": "Alpha Wolf",
+  "power.dreadandscalesorigins.alpha_wolf.description": "Wolves you tame are stronger!",
+
+  "power.dreadandscalesorigins.full_moon.name": "Werewolf-like",
+  "power.dreadandscalesorigins.full_moon.description": "During a full moon, you get Faster, Stronger, and Healthier",
+
+  "power.dreadandscalesorigins.wolf_body.name": "Wolf Body",
+  "power.dreadandscalesorigins.wolf_body.description": "You have 2 less hearts of health than humans.",
+
+  "origin.dreadandscalesorigins.bee.name": "Bee",
+  "origin.dreadandscalesorigins.bee.description": "A flying insect that pollinates the world, spreading flowers and honey all around.",
+
+  "power.dreadandscalesorigins.stinger.name": "Stinger",
+  "power.dreadandscalesorigins.stinger.description": "When you punch someone with your fist, you poison them for a few seconds",
+
+  "power.dreadandscalesorigins.flower_power.name": "Flower Power",
+  "power.dreadandscalesorigins.flower_power.description": "When near multiple flowers, you gain regeneration.",
+
+  "power.dreadandscalesorigins.queen_bee.name": "Queen Bee",
+  "power.dreadandscalesorigins.queen_bee.description": "When you collect honey, the bees won't try to attack you.",
+
+  "power.dreadandscalesorigins.small_bug.name": "Small Bug",
+  "power.dreadandscalesorigins.small_bug.description": "You have 2 less hearts of health than humans.",
+
+  "power.dreadandscalesorigins.bee_wings.name": "Bee Wings",
+  "power.dreadandscalesorigins.bee_wings.description": "You can use your tiny bee wings to descend slower as an ability",
+
+  "origin.dreadandscalesorigins.fox.name": "Fox",
+  "origin.dreadandscalesorigins.fox.description": "Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.",
+
+  "origin.dreadandscalesorigins.wendigo.name": "Wendigo",
+  "origin.dreadandscalesorigins.wendigo.description": "Secretly a loveghoster",
+
+  "power.dreadandscalesorigins.timid_creature.name": "Timid Creature",
+  "power.dreadandscalesorigins.timid_creature.description": "Your speed increases when you are around more than 3 other players.",
+
+  "power.dreadandscalesorigins.better_berries.name": "Better Berries",
+  "power.dreadandscalesorigins.better_berries.description": "Sweet Berries taste extra delicious to you!",
+
+  "power.dreadandscalesorigins.careful_gatherer.name": "Careful Gatherer",
+  "power.dreadandscalesorigins.careful_gatherer.description": "Sweet Berry Bushes don't hurt you at all.",
+
+  "power.dreadandscalesorigins.item_collector.name": "Item Collector",
+  "power.dreadandscalesorigins.item_collector.description": "You have a larger item pickup radius.",
+
+  "power.dreadandscalesorigins.sly.name": "Sly",
+  "power.dreadandscalesorigins.sly.description": "You are quicker.",
+
+  "power.dreadandscalesorigins.small_fox.name": "Small Fox",
+  "power.dreadandscalesorigins.small_fox.description": "You have 2 less hearts of health than humans."
+
+
+
+
+
+}

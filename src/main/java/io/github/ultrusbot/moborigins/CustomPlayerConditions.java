@@ -1,14 +1,14 @@
 package io.github.ultrusbot.moborigins;
 
-import io.github.apace100.origins.Origins;
+import io.github.apace100.origins.origin.Origin;
 import io.github.apace100.origins.power.factory.condition.ConditionFactory;
+import io.github.apace100.origins.registry.ModComponents;
 import io.github.apace100.origins.registry.ModRegistries;
 import io.github.apace100.origins.util.Comparison;
 import io.github.apace100.origins.util.SerializableData;
 import io.github.apace100.origins.util.SerializableDataType;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Identifier;
@@ -16,7 +16,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.registry.Registry;
 
 public class CustomPlayerConditions {
-    private static final String MOD_ID = MobOriginsMod.MOD_ID;
+    private static final String MOD_ID = DreadAndScaledOriginsMod.MOD_ID;
     public static void register() {
         register(new ConditionFactory<>(new Identifier(MOD_ID, "biome_temperature"), new SerializableData()
                 .add("comparison", SerializableDataType.COMPARISON)
@@ -40,6 +40,34 @@ public class CustomPlayerConditions {
                     Float playerBoxMultiplier = (Float)data.get("player_box_multiplier");
                     int amount = player.world.getOtherEntities(player, player.getBoundingBox().expand(playerBoxMultiplier), entity -> {
                         return entity.getType() == entityType;
+                    }).size();
+                    Comparison comparison = ((Comparison)data.get("comparison"));
+                    int compareTo = data.getInt("compare_to");
+
+                    return comparison.compare(amount, compareTo);
+                }));
+
+        register(new ConditionFactory<>(new Identifier(MOD_ID, "nearby_origins"), new SerializableData()
+                .add("entity_type", SerializableDataType.ENTITY_TYPE)
+                .add("player_box_multiplier", SerializableDataType.FLOAT)
+                .add("origin_type", SerializableDataType.STRING)
+                .add("comparison", SerializableDataType.COMPARISON)
+                .add("compare_to", SerializableDataType.INT),
+                (data, player) -> {
+                    EntityType<?> entityType = (EntityType<?>)data.get("entity_type");
+                    Float playerBoxMultiplier = (Float)data.get("player_box_multiplier");
+                    String originType = (String)data.get("origin_type");
+                    int amount = player.world.getOtherEntities(player, player.getBoundingBox().expand(playerBoxMultiplier), entity -> {
+                        boolean foundOriginType = false;
+                        for(Origin o : ModComponents.ORIGIN.get(entity).getOrigins().values()) {
+                            String originID = o.getIdentifier().toString();
+                            System.out.println("originID: " + originID);
+                            if(originType.equals(originID)) {
+                                foundOriginType = true;
+                                break;
+                            }
+                        }
+                        return entity.getType() == entityType && foundOriginType;
                     }).size();
                     Comparison comparison = ((Comparison)data.get("comparison"));
                     int compareTo = data.getInt("compare_to");

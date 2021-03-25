@@ -10,8 +10,9 @@ import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class MobOriginsMod implements ModInitializer {
-    public static final String MOD_ID = "moborigins";
+public class DreadAndScaledOriginsMod implements ModInitializer {
+    @SuppressWarnings("SpellCheckingInspection")
+    public static final String MOD_ID = "dreadandscalesorigins";
     public static Enchantment HEAT_PROTECTION = new HeatProtectionEnchantment();
     @Override
     public void onInitialize() {
