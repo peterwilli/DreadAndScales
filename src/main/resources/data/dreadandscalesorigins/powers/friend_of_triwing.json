@@ -1,10 +1,10 @@
 {
   "type": "origins:conditioned_attribute",
   "modifier": {
-    "attribute": "generic.movement_speed",
+    "attribute": "generic.max_health",
     "operation": "addition",
-    "value": 0.1,
-    "name": "friend of dragon"
+    "value": 4.0,
+    "name": "friend of triwing bonus"
   },
   "condition": {
     "type": "dreadandscalesorigins:nearby_origins",
@@ -12,6 +12,6 @@
     "origin_type": "dreadandscalesorigins:triwing",
     "player_box_multiplier": 3.0,
     "comparison": ">=",
-    "compare_to": 3
+    "compare_to": 1
   }
 }

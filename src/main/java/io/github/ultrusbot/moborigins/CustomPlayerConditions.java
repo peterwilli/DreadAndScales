@@ -61,11 +61,11 @@ public class CustomPlayerConditions {
                         boolean foundOriginType = false;
                         for(Origin o : ModComponents.ORIGIN.get(entity).getOrigins().values()) {
                             String originID = o.getIdentifier().toString();
-                            System.out.println("originID: " + originID);
                             if(originType.equals(originID)) {
                                 foundOriginType = true;
                                 break;
                             }
+                            System.out.println("originID: " + originID + " foundOriginType: " + foundOriginType);
                         }
                         return entity.getType() == entityType && foundOriginType;
                     }).size();
