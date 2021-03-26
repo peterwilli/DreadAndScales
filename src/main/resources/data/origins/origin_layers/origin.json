@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
-    "dreadandscalesorigins:wendigo"
+    "dreadandscalesorigins:wendigo",
+    "dreadandscalesorigins:triwing"
   ]
 }

@@ -121,8 +121,11 @@
   "power.dreadandscalesorigins.small_bug.name": "Small Bug",
   "power.dreadandscalesorigins.small_bug.description": "You have 2 less hearts of health than humans.",
 
-  "power.dreadandscalesorigins.friend_of_dragon.name": "Friend of dragon",
-  "power.dreadandscalesorigins.friend_of_dragon.description": "When in close vicinity of a dragon, you will regenerate health.",
+  "power.dreadandscalesorigins.friend_of_triwing.name": "Friend of triwing",
+  "power.dreadandscalesorigins.friend_of_triwing.description": "When in close vicinity of a triwing (dragon-like creature), you will regenerate health.",
+
+  "power.dreadandscalesorigins.friend_of_wendigo.name": "Friend of wendigo",
+  "power.dreadandscalesorigins.friend_of_wendigo.description": "When in close vicinity of a wendigo, you will regenerate health.",
 
   "power.dreadandscalesorigins.bee_wings.name": "Bee Wings",
   "power.dreadandscalesorigins.bee_wings.description": "You can use your tiny bee wings to descend slower as an ability",
@@ -131,7 +134,10 @@
   "origin.dreadandscalesorigins.fox.description": "Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.",
 
   "origin.dreadandscalesorigins.wendigo.name": "Wendigo",
-  "origin.dreadandscalesorigins.wendigo.description": "Secretly a loveghoster",
+  "origin.dreadandscalesorigins.wendigo.description": "Once a human that got turned into a monster after eating human flesh covered in bones of your prey, they are strong fighters and hunters which can fly with their wings for a short time.",
+
+  "origin.dreadandscalesorigins.triwing.name": "Triwing",
+  "origin.dreadandscalesorigins.triwing.description": "A dragon-like creature that has membranes under it's arms to function as wings.",
 
   "power.dreadandscalesorigins.timid_creature.name": "Timid Creature",
   "power.dreadandscalesorigins.timid_creature.description": "Your speed increases when you are around more than 3 other players.",
