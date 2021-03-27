@@ -134,10 +134,13 @@
   "power.dreadandscalesorigins.bee_wings.description": "You can use your tiny bee wings to descend slower as an ability",
 
   "power.dreadandscalesorigins.inhuman.name": "Inhuman",
-  "power.dreadandscalesorigins.inhuman.description": "fast due to inhuman structure",
+  "power.dreadandscalesorigins.inhuman.description": "Fast due to inhuman structure.",
 
   "power.dreadandscalesorigins.orebark_flight.name": "Orebark Flight",
   "power.dreadandscalesorigins.orebark_flight.description": "Fly high up the skies when in contact with water.",
+
+  "power.dreadandscalesorigins.healed_by_water.name": "Healed by water",
+  "power.dreadandscalesorigins.healed_by_water.description": "Water regenerates your body.",
 
   "origin.dreadandscalesorigins.fox.name": "Fox",
   "origin.dreadandscalesorigins.fox.description": "Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.",

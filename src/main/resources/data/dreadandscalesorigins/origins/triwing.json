@@ -2,6 +2,7 @@
   "powers": [
     "dreadandscalesorigins:friend_of_wendigo",
     "dreadandscalesorigins:orebark_flight",
+    "dreadandscalesorigins:healed_by_water",
     "origins:elytra"
   ],
   "icon": "minecraft:water_bucket",
