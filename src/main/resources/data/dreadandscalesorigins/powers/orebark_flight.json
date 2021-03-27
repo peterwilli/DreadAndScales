@@ -1,0 +1,17 @@
+{
+  "type": "origins:launch",
+  "cooldown": 0,
+  "hud_render": {
+    "bar_index": 4
+  },
+  "sound": "minecraft:entity.parrot.fly",
+  "speed": 10,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+  }
+}
