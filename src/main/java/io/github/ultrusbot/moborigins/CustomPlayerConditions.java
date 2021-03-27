@@ -15,6 +15,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.registry.Registry;
 
+import java.util.NoSuchElementException;
+
 public class CustomPlayerConditions {
     private static final String MOD_ID = DreadAndScaledOriginsMod.MOD_ID;
     public static void register() {
@@ -58,16 +60,21 @@ public class CustomPlayerConditions {
                     Float playerBoxMultiplier = (Float)data.get("player_box_multiplier");
                     String originType = (String)data.get("origin_type");
                     int amount = player.world.getOtherEntities(player, player.getBoundingBox().expand(playerBoxMultiplier), entity -> {
-                        boolean foundOriginType = false;
-                        for(Origin o : ModComponents.ORIGIN.get(entity).getOrigins().values()) {
-                            String originID = o.getIdentifier().toString();
-                            if(originType.equals(originID)) {
-                                foundOriginType = true;
-                                break;
+                        try {
+                            boolean foundOriginType = false;
+                            for(Origin o : ModComponents.ORIGIN.get(entity).getOrigins().values()) {
+                                String originID = o.getIdentifier().toString();
+                                if(originType.equals(originID)) {
+                                    foundOriginType = true;
+                                    break;
+                                }
+                                System.out.println("originID: " + originID + " foundOriginType: " + foundOriginType);
                             }
-                            System.out.println("originID: " + originID + " foundOriginType: " + foundOriginType);
+                            return entity.getType() == entityType && foundOriginType;
                         }
-                        return entity.getType() == entityType && foundOriginType;
+                        catch (NoSuchElementException e) {
+                            return false;
+                        }
                     }).size();
 //                    System.out.println("nearby_entities Amount: " + amount);
                     Comparison comparison = ((Comparison)data.get("comparison"));

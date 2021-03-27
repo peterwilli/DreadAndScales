@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier":  {
+    "attribute": "generic.armor",
+    "operation": "addition",
+    "value": 3,
+    "name": "Bone Armor bonus"
+  }
+}

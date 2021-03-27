@@ -1,6 +1,7 @@
 {
   "powers": [
-    "dreadandscalesorigins:friend_of_triwing"
+    "dreadandscalesorigins:friend_of_triwing",
+    "dreadandscalesorigins:bone_armor"
   ],
   "icon": "minecraft:stick",
   "order": 4,
