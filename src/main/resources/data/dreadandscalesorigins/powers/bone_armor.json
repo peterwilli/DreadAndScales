@@ -3,7 +3,7 @@
   "modifier":  {
     "attribute": "generic.armor",
     "operation": "addition",
-    "value": 3,
+    "value": 6,
     "name": "Bone Armor bonus"
   }
 }
