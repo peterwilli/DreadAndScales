@@ -2,7 +2,10 @@
   "powers": [
     "dreadandscalesorigins:friend_of_triwing",
     "dreadandscalesorigins:bone_armor",
-    "dreadandscalesorigins:inhuman"
+    "dreadandscalesorigins:inhuman",
+    "dreadandscalesorigins:cold_blood",
+    "dreadandscalesorigins:wendigo_flight",
+    "origins:elytra"
   ],
   "icon": "minecraft:stick",
   "order": 4,

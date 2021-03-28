@@ -112,6 +112,9 @@
   "power.dreadandscalesorigins.stinger.name": "Stinger",
   "power.dreadandscalesorigins.stinger.description": "When you punch someone with your fist, you poison them for a few seconds",
 
+  "power.dreadandscalesorigins.cold_blood.name": "Cold blood",
+  "power.dreadandscalesorigins.cold_blood.description": "Get extra damage when on fire",
+
   "power.dreadandscalesorigins.flower_power.name": "Flower Power",
   "power.dreadandscalesorigins.flower_power.description": "When near multiple flowers, you gain regeneration.",
 
@@ -129,6 +132,9 @@
 
   "power.dreadandscalesorigins.bone_armor.name": "Bone Armor",
   "power.dreadandscalesorigins.bone_armor.description": "Starts with 3 pieces of armor",
+
+  "power.dreadandscalesorigins.wendigo_flight.name": "Wendigo Flight",
+  "power.dreadandscalesorigins.wendigo_flight.description": "Can fly with everywhere, but need 10 seconds to regain stamina",
 
   "power.dreadandscalesorigins.bee_wings.name": "Bee Wings",
   "power.dreadandscalesorigins.bee_wings.description": "You can use your tiny bee wings to descend slower as an ability",
